@@ -1,4 +1,4 @@
-puts "Quand es-tu né ?"
+puts "En quelle année es-tu né ?"
 born_year = gets.chomp.to_i
 add_some_year = 100
 year_guess = born_year + 100

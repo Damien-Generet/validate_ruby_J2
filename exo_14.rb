@@ -8,3 +8,8 @@ allmail = []
     allmail << email
     puts email
 end
+puts " Voici tout les emails pair"
+allmail.each do |email|
+    number = email.scan(/\d+/).first.to_i
+    puts email if number.even?
+end

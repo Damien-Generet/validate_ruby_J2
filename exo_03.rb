@@ -1,4 +1,4 @@
-puts "Quand es-tu né ?"
+puts "En quelle année es-tu né ?"
 born_year = gets.chomp.to_i
 year_choose = 2017
 
