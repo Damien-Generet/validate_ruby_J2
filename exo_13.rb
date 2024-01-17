@@ -7,4 +7,5 @@ allmail = []
     email = "damien.generet.#{formated_number}@outlook.com"
     allmail << email
     puts email
+    puts allmail.inspect
 end
